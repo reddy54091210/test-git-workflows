@@ -6,7 +6,7 @@ jobs:
     steps:
      - name: Build Step
        run: echo "demo build"
-  test:
+test:
     runs-on: ubuntu-latest
     steps: 
       - name: Test Phase
