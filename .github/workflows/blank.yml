@@ -6,14 +6,4 @@ jobs:
     steps:
      - name: Build Step
        run: echo "demo build"
- test:
-   runs-on: ubuntu-latest
-   steps:
-    - name: Test Phase
-      run: echo "running test cases"
-Deploy:
-   runs-on: ubuntu-latest
-   steps:
-    - name: deploy the app
-      run: echo "deploy the app"
   
